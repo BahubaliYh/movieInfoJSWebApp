@@ -1,0 +1,32 @@
+#movies img, #movie img{
+    width: 100%;
+}
+
+#movies .col-md-3 .well{
+    background-color: #282828;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.well{
+    background-color: #282828;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.btn-default{
+    background-color: #4b4b4b;
+}
+
+@media(min-width:960px){
+    #movies .col-md-3 .well{
+        background-color: #282828;
+        padding: 20px;
+        height: 390px;
+        margin-top: 20px;
+    }
+    
+    #movies .col-md-3 img{
+        height: 240px;
+    }
+}
